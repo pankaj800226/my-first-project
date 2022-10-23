@@ -1,0 +1,100 @@
+ <div class="navbar">
+        <ul>
+            <li><a href="#">Feature</a></li>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">.</a></li>
+            <li><a href="#">Sing in</a></li>
+            <li><a href="#">Get started</a></li>
+        </ul>
+    </div>
+    <div class="image">
+        <img src="https://uploads-ssl.webflow.com/5b680680f109cf5a2fd941ab/5b680f7ddc6fa8394a12fc7f_logo-spoon-white.svg" alt="">
+        </div>
+    <div class="content">
+        <h1>propel your business</h>
+   </div>
+   <div class="line">
+    <p>Propel comes with everything you need to get your business rolling.</p>
+   </div>
+   <a href="/contact" class="button w-button">Get Started</a>
+
+
+
+     
+
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul{
+   
+    float: right;
+    list-style: none;
+    color: white;
+}
+.navbar ul li{
+   display: inline-block;
+    padding: 0px 25px;
+    font-size: 17px;
+}
+.navbar ul li a{
+   color: white;
+   text-decoration: none;
+}
+ul li a:hover{
+    background-color: white;
+color: black;
+border: 3px solid wheat;
+}
+ul li a{
+    transition: 0.6s ease;
+}
+
+body{
+    background-image: url('index.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.image{
+    margin: 41px
+}
+.content{
+    font-size: 37px;
+    margin: 175px 225px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+   
+}
+.line{
+    margin: -161px 312px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+}
+.button{
+    padding: 15px 30px;
+    background-color: #5ab963;
+    border-radius: 4px;
+}
+.button{
+    margin: 523px;
+    line-height: 490px;
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.button{
+    transition: 0.6s ease;
+
+}
+
+
+    
